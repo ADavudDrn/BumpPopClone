@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2859265294690530979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2859265294690530988}
+  - component: {fileID: 2859265294690530989}
+  - component: {fileID: 2859265294690530978}
+  - component: {fileID: 4757791164855496737}
+  m_Layer: 0
+  m_Name: ValueSetter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2859265294690530988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2859265294690530979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.36002445, y: -858.5896, z: 7.023721}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2859265294690530989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2859265294690530979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037c1a3b4a254093a679dfa802665e11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Reference: {fileID: 11400000, guid: 0ee97670e18dbcb46928dafb2dd7af20, type: 2}
+  SetOn: 0
+  IntValue: 0
+  TransformValue: {fileID: 0}
+  BoolValue: 0
+  BallCounterValue: {fileID: 0}
+--- !u!114 &2859265294690530978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2859265294690530979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037c1a3b4a254093a679dfa802665e11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Reference: {fileID: 11400000, guid: af41d3e58e9451145a1a1eaee1a7d8a4, type: 2}
+  SetOn: 0
+  IntValue: 0
+  TransformValue: {fileID: 0}
+  BoolValue: 0
+  BallCounterValue: {fileID: 0}
+--- !u!114 &4757791164855496737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2859265294690530979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037c1a3b4a254093a679dfa802665e11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Reference: {fileID: 11400000, guid: bee6bdb5c45d3d546908956e3fcd4449, type: 2}
+  SetOn: 0
+  IntValue: 0
+  TransformValue: {fileID: 0}
+  BoolValue: 0
+  BallCounterValue: {fileID: 0}
